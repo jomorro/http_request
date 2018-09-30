@@ -1,0 +1,22 @@
+GET https://www.w3.org/People/Berners-Lee/
+###
+GET https://swapi.co/api/films/2/
+###
+GET https://www.pokeapi.co/
+###
+GET https://api.blockchain.info/stats
+###
+POST https://jsonplaceholder.typicode.com/posts
+Content-Type: application/json
+
+{
+    "foo": "bar"
+}
+//"id": 101//
+###
+
+GET https://jsonplaceholder.typicode.com/posts/1/
+###
+//shows empty "{}"
+DELETE https://jsonplaceholder.typicode.com/posts/1/
+###
